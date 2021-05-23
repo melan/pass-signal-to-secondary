@@ -28,7 +28,7 @@ func logSinceStart() string {
 }
 
 func logf(format string, args ...interface{}) {
-	_, _ = fmt.Printf(logSinceStart()+"Primary: "+format, args...)
+	_, _ = fmt.Printf(logSinceStart()+" Primary: "+format, args...)
 }
 
 func logln(msg string) {
